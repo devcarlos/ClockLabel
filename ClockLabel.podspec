@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source      = { :git => 'https://github.com/devcarlos/ClockLabel.git', :tag => s.version.to_s }
   s.source_files = 'ClockLabel/*.swift'
   s.requires_arc  = true
+  s.resource_bundle = {'ClockBundle' => 'ClockLabel/**/*.{ttf,otf}' }
 end

@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         self.clock2.customize { label in
             label.backgroundColor = UIColor.blackColor()
             label.textAlignment = NSTextAlignment.Center
-            label.textColor = UIColor.yellowColor()
+            label.textColor = UIColor.whiteColor()
             label.fontHandler = ClockFontHandler(name: .DigitalDismay, size: 150)
             label.glowColor = label.textColor
             label.glowOffset = CGSize(width: 3.0, height: 0.0)
