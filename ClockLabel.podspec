@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ClockLabel"
-  s.version      = "1.0"
+  s.version      = "1.2"
   s.summary      = "Custom Clock Fonts based Label with Glow Effect"
   s.homepage     = "https://github.com/devcarlos/ClockLabel"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source      = { :git => 'https://github.com/devcarlos/ClockLabel.git', :tag => s.version.to_s }
   s.source_files = 'ClockLabel/*.swift'
   s.requires_arc  = true
-  s.resource_bundle = {'ClockBundle' => 'ClockLabel/**/*.{ttf,otf}' }
+  s.resource = 'ClockLabel/ClockBundle.bundle'
 end
